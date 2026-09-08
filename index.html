@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         FIRST SCREEN
+    ========================== -->
+
+    <section id="welcomeScreen" class="screen">
+
+        <div class="welcome-content">
+
+            <div class="sparkles">✨ ✨ ✨</div>
+
+            <h1>Hey...</h1>
+
+            <p>
+                I made something special for you.
+            </p>
+
+            <button id="openGiftBtn">
+                🎁 Open Your Gift
+            </button>
+
+        </div>
+
+    </section>
+
+  <!-- =========================
+     GIFT SCREEN
+========================== -->
+
+<section id="giftScreen" class="screen hidden">
+
+    <div class="gift-container">
+
+      <!-- =========================
+     BIRTHDAY CELEBRATION
+========================== -->
+
+<div id="birthdayCelebration" class="birthday-celebration hidden">
+
+    <!-- Balloons -->
+    <div class="balloons">
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+        <span>🎈</span>
+    </div>
+
+
+    <!-- Cake -->
+    <div class="cake-container">
+
+        <img
+            src="images/birthday-cake.gif"
+            alt="Birthday Cake"
+            class="cake-gif"
+        >
+
+    </div>
+
+
+    <!-- Birthday Text -->
+
+    <div class="birthday-text">
+
+        <div class="confetti">🎉 ✨ 🎊 ✨ 🎉</div>
+
+        <h1>
+            HAPPY BIRTHDAY
+        </h1>
+
+        <h2>
+            My Special Person ❤️
+        </h2>
+
+        <p>
+            Today is all about you ✨
+        </p>
+
+    </div>
+
+  <button id="surpriseNextBtn">
+    ✨ See Your Surprise
+  </button>
+  
+</div>
+
+        <div class="gift-box">
+
+            <div class="gift-lid">
+                <div class="ribbon"></div>
+            </div>
+
+            <div class="gift-body">
+                <div class="ribbon-vertical"></div>
+                <div class="ribbon-horizontal"></div>
+            </div>
+
+        </div>
+
+        <p class="tap-text">
+            Tap the gift 🎁
+        </p>
+
+    </div>
+
+</section>
+
+
+  <!-- =========================
+     SECRET SURPRISE SCREEN
+========================== -->
+
+<section id="surpriseScreen" class="screen hidden">
+
+    <div class="surprise-content">
+
+        <div class="moon">🌙</div>
+
+        <h1>
+            Someone left a little
+            surprise here for you...
+        </h1>
+
+        <p>
+            ✨ Tap to discover it ✨
+        </p>
+
+        <button id="discoverBtn">
+            🌱 Discover Surprise
+        </button>
+
+    </div>
+
+
+    <!-- =========================
+         DIGITAL GARDEN
+    ========================== -->
+
+    <div id="garden" class="garden hidden">
+
+        <div class="stars">
+            ✦ ✧ ✦ ✧ ✦ ✧ ✦
+        </div>
+      
+      <!-- Fireflies -->
+<div class="fireflies">
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+    <span>✦</span>
+    <span>✧</span>
+</div>
+
+<!-- Falling Petals -->
+<div class="petals">
+    <span>🌸</span>
+    <span>🌸</span>
+    <span>🌷</span>
+    <span>🌸</span>
+    <span>🌷</span>
+    <span>🌸</span>
+</div>
+
+        <div class="ground">
+
+            <div class="flower flower1">
+                <div class="stem"></div>
+
+              <div class="leaf leaf-left leaf1"></div>
+              <div class="leaf leaf-right leaf2"></div>
+              <div class="leaf leaf-left leaf3"></div>
+
+                <div class="flower-head">🌹</div>
+            </div>
+
+            <div class="flower flower2">
+                <div class="stem"></div>
+
+              <div class="leaf leaf-left leaf1"></div>
+              <div class="leaf leaf-right leaf2"></div>
+              <div class="leaf leaf-left leaf3"></div>
+              
+                <div class="flower-head">🌷</div>
+            </div>
+
+            <div class="flower flower3">
+                <div class="stem"></div>
+
+              <div class="leaf leaf-left leaf1"></div>
+              <div class="leaf leaf-right leaf2"></div>
+              <div class="leaf leaf-left leaf3"></div>
+              
+                <div class="flower-head">🌸</div>
+            </div>
+
+            <div class="flower flower4">
+                <div class="stem"></div>
+
+              <div class="leaf leaf-left leaf1"></div>
+              <div class="leaf leaf-right leaf2"></div>
+              <div class="leaf leaf-left leaf3"></div>
+              
+                <div class="flower-head">🌹</div>
+            </div>
+
+            <div class="flower flower5">
+                <div class="stem"></div>
+
+              <div class="leaf leaf-left leaf1"></div>
+              <div class="leaf leaf-right leaf2"></div>
+              <div class="leaf leaf-left leaf3"></div>
+              
+                <div class="flower-head">🌷</div>
+            </div>
+
+        </div>
+
+
+        <div class="garden-message">
+
+    <div class="birthday-again">
+        <span>✨</span>
+        <h2>Happy Birthday Again! 🎂❤️</h2>
+        <p>May your life always bloom beautifully, just like these flowers. 🌸</p>
+        <span>✨</span>
+    </div>
+
+    <button id="gardenContinue">Continue ✨</button>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- =========================
+     BIRTHDAY MINI GAME
+========================= -->
+
+<section id="gameScreen" class="screen hidden">
+
+    <div class="game-content">
+
+        <div class="game-icon">❤️</div>
+
+        <h1>A little game for you...</h1>
+
+        <p>Catch 10 hearts to unlock your surprise! 💕</p>
+
+        <div class="heart-counter">
+            <span id="heartCount">0</span> / 10 ❤️
+        </div>
+
+        <div id="gameArea"></div>
+
+    </div>
+
+    <div id="gameComplete" class="game-complete hidden">
+
+        <div class="complete-icon">🎉</div>
+
+        <h1>LEVEL COMPLETE!</h1>
+
+        <p>You unlocked your birthday surprise 🔓❤️</p>
+
+        <button id="unlockBtn">
+            💌 Unlock Surprise
+        </button>
+
+    </div>
+
+</section>
+
+  <!-- =========================
+     PERSONAL MESSAGE
+========================= -->
+
+<section id="messageScreen" class="screen hidden">
+
+    <div class="message-content">
+
+        <div class="message-heart">💖</div>
+
+        <h1>For You...</h1>
+
+        <div class="message-card">
+
+            <p>
+                On your special day, I just want you to know
+                how truly special you are. ❤️
+            </p>
+
+            <p>
+                I hope your life is always filled with
+                happiness, beautiful moments, and people
+                who genuinely care about you. ✨
+            </p>
+
+            <p>
+                And maybe... this little surprise
+                can become one of those moments. 🌸
+            </p>
+
+        </div>
+
+      <button id="collectGiftBtn">
+    🎁 Collect Your Gift
+      </button>
+
+    </div>
+
+</section>
+
+
+  <!-- =========================
+     GIFT COLLECTION
+========================= -->
+
+<section id="giftCollectionScreen" class="screen hidden">
+
+    <div class="gift-collection-content">
+
+        <div class="gift-title">
+            <div class="gift-title-icon">🎁</div>
+
+            <h1>Collect Your Gift</h1>
+
+            <p>
+                Tap one of the boxes to collect your gift
+                <br>
+                <small>(only one 😉)</small>
+            </p>
+        </div>
+
+<div id="giftGrid" class="gift-grid">
+
+    <div class="collect-gift" data-gift="1">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        <div class="gift-reveal">
+    <img src="images/rose.png" alt="Rose" class="gift-image">
+    <span class="gift-name">A Little Rose</span>
+        </div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="2">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 2 -->
+‎<div class="gift-reveal">
+‎    <img src="images/headphone.png" alt="Headphone" class="gift-image">
+‎    <span class="gift-name">Something to Listen With</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="3">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 3 -->
+‎<div class="gift-reveal">
+‎    <img src="images/chocolate.png" alt="Chocolate" class="gift-image">
+‎    <span class="gift-name">A Little Sweetness</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="4">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 4 -->
+‎<div class="gift-reveal">
+‎    <img src="images/teddy.png" alt="Teddy" class="gift-image">
+‎    <span class="gift-name">A Little Cuddle</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="5">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 5 -->
+‎<div class="gift-reveal">
+‎    <img src="images/lipstick.png" alt="Lipstick" class="gift-image">
+‎    <span class="gift-name">Something Pretty</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="6">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 6 -->
+‎<div class="gift-reveal">
+‎    <img src="images/love-letter.png" alt="Love Letter" class="gift-image">
+‎    <span class="gift-name">A Letter From Me</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="7">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 7 -->
+‎<div class="gift-reveal">
+‎    <img src="images/keychain.png" alt="Keychain" class="gift-image">
+‎    <span class="gift-name">A Little Keychain</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="8">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 8 -->
+‎<div class="gift-reveal">
+‎    <img src="images/mug.png" alt="Cute Mug" class="gift-image">
+‎    <span class="gift-name">A Cute Little Mug</span>
+‎</div>
+    </div>
+
+
+    <div class="collect-gift" data-gift="9">
+        <div class="mini-gift">
+            <div class="mini-lid"></div>
+            <div class="mini-box"></div>
+            <div class="mini-ribbon"></div>
+        </div>
+        ‎<!-- 9 -->
+‎<div class="gift-reveal">
+‎    <img src="images/500-taka.png" alt="500 Taka" class="gift-image">
+‎    <span class="gift-name">A Little Something Extra</span>
+‎</div>
+    </div>
+
+</div>
+
+</div>
+
+
+        <!-- FIRST RESULT -->
+
+        <div id="giftResult" class="gift-result hidden">
+
+            <div class="result-emoji">😢</div>
+
+            <h2>Better luck next time!</h2>
+
+        </div>
+
+
+        <!-- FINAL RESULT -->
+
+        <div id="allGiftsMessage" class="all-gifts-message hidden">
+
+            <div class="result-emoji">🥰</div>
+
+            <h2>Just kidding!</h2>
+
+            <p>You'll get all of it! 🎁❤️</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+  <!-- FINAL SURPRISE SCREEN -->
+<section id="finalScreen" class="screen hidden">
+
+    <div class="final-stars">✦ ✧ ✦ ✧ ✦</div>
+
+    <div class="final-content">
+
+        <div class="final-heart">❤️</div>
+
+        <p class="final-small">And finally...</p>
+
+        <h1>One Last Surprise</h1>
+
+        <div class="final-line"></div>
+
+        <p class="final-message">
+            Maybe the real gift was the smile
+            I hoped to put on your face. ❤️
+        </p>
+
+        <div class="final-cake">🎂</div>
+
+        <h2>Happy Birthday, Once Again! ✨</h2>
+
+        <p class="final-wish">
+            May every chapter of your life be
+            filled with happiness, love and beautiful moments. 🌸
+        </p>
+
+        <button id="finalMessageBtn">
+            💌 One Last Thing
+        </button>
+
+    </div>
+
+</section>
+
+  <!-- LAST MESSAGE SCREEN -->
+<section id="lastMessageScreen" class="screen hidden">
+
+    <div class="last-message-content">
+
+        <div class="last-envelope">💌</div>
+
+        <p class="last-small">A little message from me...</p>
+
+        <h1>For You, Always ❤️</h1>
+
+        <div class="letter-card">
+
+            <p>
+                I don't know if a website can truly express
+                how special someone is...
+            </p>
+
+            <p>
+                But I wanted to create something that would
+                make you smile today. 🥹❤️
+            </p>
+
+            <p>
+                I hope this birthday brings you countless
+                reasons to smile, beautiful memories to keep,
+                and happiness that stays with you for a very,
+                very long time. ✨
+            </p>
+
+            <p>
+                No matter how simple this little surprise is,
+                I hope you know that it was made with a lot
+                of thought and a little piece of my heart. ❤️
+            </p>
+
+            <div class="letter-signature">
+                Happy Birthday! 🎂🌸
+                <br>
+                <span>— From someone who cares about you ❤️</span>
+            </div>
+
+        </div>
+
+        <div class="last-sparkles">
+            ✨ ❤️ ✨
+        </div>
+
+    </div>
+
+</section>
+  
+
+  <!-- JavaScript -->
+    <script src="script.js"></script>
+
+  <!-- FOOTER -->
+<footer class="site-footer">
+    <span>Made with ❤️ for someone special</span>
+    <span class="footer-divider">•</span>
+    <span>© 2026 Shifatur Rahman</span>
+</footer>
+  
+</body>
+
+</html>
